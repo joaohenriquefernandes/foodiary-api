@@ -23,6 +23,9 @@ importers:
       globals:
         specifier: ^16.2.0
         version: 16.2.0
+      tsc:
+        specifier: ^2.0.4
+        version: 2.0.4
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -503,6 +506,10 @@ packages:
     engines: {node: '>=18.12'}
     peerDependencies:
       typescript: '>=4.8.4'
+
+  tsc@2.0.4:
+    resolution: {integrity: sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==}
+    hasBin: true
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -1023,6 +1030,8 @@ snapshots:
   ts-api-utils@2.1.0(typescript@5.8.3):
     dependencies:
       typescript: 5.8.3
+
+  tsc@2.0.4: {}
 
   type-check@0.4.0:
     dependencies:
